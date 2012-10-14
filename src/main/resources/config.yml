@@ -1,0 +1,7 @@
+timeout: 5
+deathMessageColor: false
+messages:
+  victim: "Careful, don't log out! $1 has tagged you as in-combat"
+  attacker: "You have tagged $1 as in-combat"
+  victimFree: "You are no longer tagged as in-combat"
+  death: "$1 has been killed for pvplogging"
