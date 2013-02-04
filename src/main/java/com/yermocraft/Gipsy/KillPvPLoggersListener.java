@@ -1,5 +1,6 @@
 package com.yermocraft.Gipsy;
 
+import java.util.logging.Logger;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.LivingEntity;
@@ -10,12 +11,12 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-
 /**
  * KillPvPLoggers block listener
  * @author GipsyKing
  */
 public class KillPvPLoggersListener implements Listener {
+	Logger log = Logger.getLogger("KillPvPLoggers");
 	
 	private TaggedPlayerList list;
 	private ChatColor deathMessageColor = null;

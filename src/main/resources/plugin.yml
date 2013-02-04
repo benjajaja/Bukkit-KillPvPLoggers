@@ -1,5 +1,4 @@
 name: KillPvPLoggers
-
+author: ElGipsy, Cryptite
 main: com.yermocraft.Gipsy.KillPvPLoggers
-
-version: 0.1
+version: 0.1.1
